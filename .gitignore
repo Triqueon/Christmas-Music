@@ -1,0 +1,11 @@
+# ---> Lilypond
+*.pdf
+*.ps
+*.midi
+*.mid
+*.log
+*.aux
+*.toc
+*~
+
+out/
