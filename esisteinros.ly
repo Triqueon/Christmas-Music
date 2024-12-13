@@ -1,6 +1,14 @@
 \version "2.24.3"
 \include "global.ly"
 
+\paper {
+  system-system-spacing =
+    #'((basic-distance . 15) 
+       (minimum-distance . 10)
+       (padding . 2)
+       (stretchability . 60)) % defaults: 12, 8, 1, 60
+}
+
 KeyandTime = {
   \time 4/4
   %Tonart
@@ -12,7 +20,7 @@ Melodie = \relative c'' {
   \set Staff.midiInstrument = #"choir aahs"
   \partial 2
   \repeat volta 2 {c2 c4 c d c c2 a b a4 g~ g f2 e4 f2 }
-  r4 a g e f d c2 r4 c' c c d c c2 a b a4 g~ g f2 e4 f2
+  h4\rest a g e f d c2 h'4\rest c c c d c c2 a b a4 g~ g f2 e4 f2
   \bar "|."
 }
 
@@ -25,7 +33,7 @@ Alt = \relative c'' {
 BassEins = \relative c { \set Staff.midiInstrument = #"choir aahs"
   \partial 2
   \repeat volta 2 {c'2 c4 a b a g2 f f a4 c b( a2) g4 s2}
-  r4 c b a a g g2 r4 g g a b a g2 fis g s2 a2 g s2
+  d4\rest c' b a a g g2 d4\rest g g a b a g2 fis g s2 a2 g s2
   \bar "|." 
 }
 
@@ -42,29 +50,51 @@ ersteStrophe = \lyricmode {
   wohl zu der hal -- ben Nacht.
 }
 
-zweiteStrophe = "2. Das Schiff geht still im Triebe,
+ersteStropheWiederholung = \lyricmode {
+  als uns die Al -- ten sungen: von Jes -- se kam die Art
+}
 
-es trägt ein teure Last;
+zweiteStrophe = "2. Das Röslein, das ich meine,
 
-das Segel ist die Liebe,
+davon Jesaias sagt,
 
-der Heilig Geist der Mast"
+hat uns gebracht alleine
 
-dritteStrophe = "3. Der Anker haft' auf Erden
+Marie die reine Magd.
 
-und das Schiff ist am Land.
+Aus Gottes ewgem Rat
 
-Gotts Wort tut uns Fleisch werden,
+hat sie ein Kind geboren,
 
-der Sohn ist uns gesandt."
+welches uns selig macht."
 
-vierteStrophe = "4. Zu Bethlehem geboren,
+dritteStrophe = "3. Das Blümelein so kleine
 
-im Stall ein Kindelein,
+das duftet uns so süß;
 
-gibt sich für uns verloren;
+mit seinem hellen Scheine
 
-gelobet muss es sein"
+vertreibts die Finsternis:
+
+wahr' Mensch und wahrer Gott,
+
+hilft uns aus allem Leide,
+
+rettet von Sünd und Tod"
+
+vierteStrophe = "4. \"O Jesu, bis zum Scheiden
+
+aus diesem Jammertal
+
+laß Dein Hilf uns geleiten
+
+hin in den Freudensaal,
+
+in Deines Vaters Reich,
+
+da wir Dich ewig loben.
+
+O Gott uns das verleih.\""
 
 \bookpart {
   \score {
@@ -75,7 +105,10 @@ gelobet muss es sein"
         \new Voice = "Melodie" {
           \KeyandTime
           \Melodie
-          \addlyrics { \ersteStrophe }
+        }
+        \new Lyrics \with { alignAboveContext = "firstStaff" } {
+          \lyricsto "Melodie" { \ersteStrophe }
+          \lyricsto "Melodie" { \ersteStropheWiederholung }
         }
         \new Voice = "Alt" {
           \voiceTwo
