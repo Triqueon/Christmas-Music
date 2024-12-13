@@ -51,7 +51,7 @@ ersteStrophe = \lyricmode {
 }
 
 ersteStropheWiederholung = \lyricmode {
-  als uns die Al -- ten sungen: von Jes -- se kam die Art
+  als uns die Al -- ten sun -- gen: von Jes -- se kam die Art.
 }
 
 zweiteStrophe = "2. Das Röslein, das ich meine,
@@ -106,8 +106,11 @@ O Gott uns das verleih.\""
           \KeyandTime
           \Melodie
         }
-        \new Lyrics \with { alignAboveContext = "firstStaff" } {
+        \new Lyrics = "Text" \with { alignAboveContext = "firstStaff" } {
           \lyricsto "Melodie" { \ersteStrophe }
+          
+        }
+        \new Lyrics \with { alignBelowContext = "Text"} {
           \lyricsto "Melodie" { \ersteStropheWiederholung }
         }
         \new Voice = "Alt" {
