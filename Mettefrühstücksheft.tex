@@ -1,6 +1,10 @@
 \documentclass[10pt]{article}
 \usepackage[a5paper, landscape, margin=2cm]{geometry}
 \usepackage[german]{babel}
+
+%Neue Seite vor jedem Lied
+\AddToHook{cmd/section/before}{\clearpage}
+
 \title{Das Mettefrühstücksheft}
 
 \begin{document}
@@ -8,18 +12,15 @@
 \maketitle
 \newpage
 \tableofcontents
-\newpage
 \section{Es kommt ein Schiff, geladen}
 \lilypondfile{eskommteinschiff.ly}
-
-\section{Auf, Christen, singt festliche Lieder}
-\lilypondfile{aufchristen.ly}
 
 \section{Es ist ein Ros entsprungen}
 \lilypondfile{esisteinros.ly}
 
 \section{Wärst du Kindchen, im Kaschubenlande}
 %TODO
+
 \section{Lippai, steh auf vom Schlaf}
 %TODO
 
@@ -37,4 +38,33 @@
 
 \section{Kommet, ihr Hirten}
 \lilypondfile{kommetihrhirten.ly}
+
+\section{Singen wir mit Fröhlichkeit}
+%TODO
+
+\section{In dulci jubilo}
+\lilypondfile{indulcijubilo.ly}
+
+
+\section{Auf, Christen, singt festliche Lieder}
+\lilypondfile{aufchristen.ly}
+
+\section{Tochter Zion}
+\lilypondfile{tochterzion.ly}
+
+\section{O du fröhliche}
+%TODO
+
+\section{Heiligste Nacht}
+%TODO
+
+\section{Maria durch ein' Dornwald ging}
+%TODO
+
+\section{Nun freut euch ihr Christen}
+%TODO
+
+\section{Mit einem Stern führt Gottes Hand}
+%TODO
+
 \end{document}

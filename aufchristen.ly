@@ -60,7 +60,7 @@ sie singen vom Frieden der Welt."
     \midi {}
   }
   \markup { 
-    \vspace #2
+    \vspace #4
     \wordwrap-string \zweiteStrophe 
   }
 
