@@ -122,22 +122,24 @@ Nimm hin mein Herz zum Pfand."
     \layout{}
     \midi {}
   }
-  \markup { 
-      \vspace #1
+  \markup {
+    \vspace #1
+      \column {
         \wordwrap-string \zweiteStrophe 
-        \hspace #2
+        \vspace #1
         \wordwrap-string \dritteStrophe 
-        \hspace #2
+      }
+      \hspace #2
+      \column {
         \wordwrap-string \vierteStrophe 
+        \vspace #1
+        \wordwrap-string \fünfteStrophe 
+      }
   }
   \markup {
-    \vspace #2
-    \line {
-      \wordwrap-string \fünfteStrophe 
-      \hspace #2
-      \wordwrap-string \sechsteStrophe 
-
-    }
+    \vspace #1
+    \wordwrap-string \sechsteStrophe
   }
+
 
 }  

@@ -10,7 +10,7 @@ KeyandTime = {
 Melodie = \relative c' { \set Staff.midiInstrument = #"choir aahs"
   \KeyandTime
   \partial 4
-  d4 d2 d4 e2 e4 f( g a) a2 a4 g2 g4 d2 e4 \time 2/2 f2 r4 f4
+  d4 d2 d4 e2 e4 f( g a) a2 a4 g2 g4 d2 e4 \time 2/2 f2 r4 f4 \break
   <<
     { \voiceOne a c d d c8( b a g) f4 g a g f e d2. }
     \new Voice {\voiceTwo r4 f2 b4 a c, d e f a,4. h8 cis4 d2.}
@@ -84,7 +84,9 @@ wie an ihm ist geschehn."
         <<
           \new Voice = "Melodie" {
             \Melodie
-            \addlyrics { \ersteStrophe }
+          }
+          \new Lyrics = "Text" \with { alignAboveContext = "firstStaff" } {
+            \lyricsto "Melodie" { \ersteStrophe }    
           }
         >>
       \new Staff = "secondStaff"
