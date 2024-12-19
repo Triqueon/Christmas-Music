@@ -9,10 +9,10 @@ KeyandTime = {
 
 Melodie = \relative c'' { \set Staff.midiInstrument = #"choir aahs"
   \partial 4
-  \repeat volta 2 { f,4 f g b b a g f b \break a g b f g es f2 \once \override Staff.BarLine.stencil = #point-stencil r4 }
+  \repeat volta 2 { f,4 f g b b a g f b a g b f g es f2 \once \override Staff.BarLine.stencil = #point-stencil r4 }
   \break \autoBeamOn
   \partial 4
-  b4 b c d b c8 b a g f4 f \break f es d f g es f2 \once \override Staff.BarLine.stencil = #point-stencil r4
+  b4 b c d b c8 b a g f4 f f es d f g es f2 \once \override Staff.BarLine.stencil = #point-stencil r4
   \bar "|."
 }
 
@@ -83,8 +83,6 @@ Zeit und führ uns hin zur Seligkeit."
       }
     >>
     \layout{
-      indent = 0
-      line-width = 85%
     }
     \midi {}
   }
@@ -96,7 +94,10 @@ Zeit und führ uns hin zur Seligkeit."
       \wordwrap-string \dritteStrophe 
       \vspace #0.5
       \wordwrap-string \vierteStrophe
-      \vspace #0.5
+      
+    }
+    \hspace #2
+    \column {
       \wordwrap-string \fünfteStrophe 
       \vspace #0.5
       \wordwrap-string \sechsteStrophe 

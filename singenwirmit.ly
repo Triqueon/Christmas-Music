@@ -2,17 +2,23 @@
 \include "global.ly"
 
 KeyandTime = {
-  \time 2/2
+  \time 6/4
   %Tonart
-  \key g \major
-  \tempo 2 = 55
+  \key d \major
+  \tempo 2. = 45
 }
 
 Melodie = \relative c'' { \set Staff.midiInstrument = #"choir aahs"
-  \partial 4
-  g4 g2 d4 g a2 d, h'4 a h c h2 a4 g g2 fis4 e fis( g) a h8 g fis2( e4.) d8 d2. r4
-  d'2 c4 h c2 h a4 h g a fis( e) d \break
-  g g fis g a g2 d4 h' h a h c h2 a4 d c h a g fis2 g4 c h2 a4. g8 g2 r4
+  a2 fis4 d2 fis4 a2 h4 a2.
+  a2 fis4 d2 fis4 a2 h4 a2.
+  g2 g4 g2 a4 g2 fis4 e2
+  fis4 a2 fis4 d2 fis4 e2 d4 e2 fis4 d2. d2 r4 
+  d2 e4 fis2 g4 fis2 e4 fis2 g4 e2 e4 d2 r4
+  a2. fis a fis d2 e4 fis2 g4 fis2 e4 fis2.
+  d2 e4 fis2 g4 fis2 e4 fis2.
+  d2 e4 fis2 g4 fis2 e4 fis2 g4 e2 e3 d2 r4
+  a2 a4 a2 a4 d2 cis4 h2 a4 d2 cis4 h2 a4 a2 gis4 a2.
+  d,2 e4 fis2 g4 a2 g4 fis2 g4 e2 e4 d2.
   \bar "|."
 }
 

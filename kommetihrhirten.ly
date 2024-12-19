@@ -3,9 +3,9 @@
 
 \paper {
   system-system-spacing =
-    #'((basic-distance . 18) 
-       (minimum-distance . 12)
-       (padding . 2)
+    #'((basic-distance . 24) 
+       (minimum-distance . 16)
+       (padding . 5)
        (stretchability . 60)) % defaults: 12, 8, 1, 60
 }
 
@@ -21,6 +21,7 @@ Melodie = \relative c'' {
   \set Staff.midiInstrument = #"choir aahs"
   \repeat volta 2 {c4 c8( a) d( b) c4 c8( a) d( b) c4 a8( c) g( a) f2 b4\rest }
   f4 a8 f a c f,4 a8 f g c, f4 a8 f a c f,4 a8 f g c,
+  \set Score.tempoHideNote = ##t
   \tempo 4 = 70
   c'4 a8( c) g( a) f2 b4\rest
   \bar "|."

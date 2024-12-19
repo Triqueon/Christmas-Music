@@ -83,11 +83,9 @@ dein."
   }
   \markup {
     \vspace #2
-    \column {
-      \wordwrap-string \zweiteStrophe 
-      \vspace #2
-      \wordwrap-string \dritteStrophe 
-    }
+    \wordwrap-string \zweiteStrophe 
+    \hspace #2
+    \wordwrap-string \dritteStrophe 
   }
 
 }  

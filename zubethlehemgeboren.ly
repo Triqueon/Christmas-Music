@@ -3,9 +3,9 @@
 
 \paper {
   system-system-spacing =
-    #'((basic-distance . 15) 
-       (minimum-distance . 10)
-       (padding . 2)
+    #'((basic-distance . 30) 
+       (minimum-distance . 20)
+       (padding . 8)
        (stretchability . 60)) % defaults: 12, 8, 1, 60
 }
 KeyandTime = {
@@ -123,23 +123,23 @@ Nimm hin mein Herz zum Pfand."
     \midi {}
   }
   \markup {
-    \vspace #1
+    \vspace #2
       \column {
         \wordwrap-string \zweiteStrophe 
         \vspace #1
         \wordwrap-string \dritteStrophe 
       }
-      \hspace #2
+      \hspace #4
       \column {
         \wordwrap-string \vierteStrophe 
         \vspace #1
         \wordwrap-string \fünfteStrophe 
       }
-  }
-  \markup {
-    \vspace #1
-    \wordwrap-string \sechsteStrophe
-  }
+      \hspace #4
+      \column {
+        \wordwrap-string \sechsteStrophe 
 
+      }
+  }
 
 }  

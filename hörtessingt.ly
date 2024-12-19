@@ -49,7 +49,7 @@ hat uns alle angenommen, / uns zum Heil und Gott zur Ehr."
   }
   \markup { 
     \column {
-      \vspace #1
+      \vspace #5
       \wordwrap-string \zweiteStrophe 
 
       \vspace #1

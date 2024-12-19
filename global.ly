@@ -1,2 +1,2 @@
 \language "deutsch"
-#(set-global-staff-size 15)
+#(set-global-staff-size 14)

@@ -44,7 +44,7 @@ BassZwei = \relative c {
 
 ersteStrophe = \lyricmode {
   \set stanza = "1."
-  Lobt Gott ihr Chri -- sten al --le _ gleich in sei -- nem höch -- sten Thron,
+  Lobt Gott ihr Chri -- sten al -- le _ gleich in sei -- nem höch -- sten Thron,
   der heut schleußt auf sein Him -- mel _ -- reich und schenkt uns _ sei -- nen Sohn,
   und schenkt uns__ sei -- nen Sohn.
 }
@@ -139,27 +139,27 @@ Gott sei Lob Ehr und Preis!"
     \midi {}
   }
   \markup { 
-    \vspace #2
+    \vspace #1
     \column{    
       \wordwrap-string \zweiteStrophe
-      \vspace #2
+      \vspace #0.75
       \wordwrap-string \dritteStrophe
     }
     \hspace #6
     \column{    
       \wordwrap-string \vierteStrophe
-      \vspace #2
+      \vspace #0.75
       \wordwrap-string \fünfteStrophe
     }
     \hspace #6
     \column{    
       \wordwrap-string \sechsteStrophe
-      \vspace #2
+      \vspace #0.75
       \wordwrap-string \siebteStrophe
     }
   }
   \markup {
-    \vspace #2
+    \vspace #0.75
     \wordwrap-string \achteStrophe
   }
 

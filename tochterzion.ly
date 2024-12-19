@@ -67,7 +67,7 @@ ersteStrophe = \lyricmode {
   Toch -- ter Zi -- on, freu -- e dich,
   jauch -- ze laut, Je -- ru -- sa -- lem!
   Sieh, dein Kö -- nig kommt zu dir,
-  ja er kommt der Frie -- de -- fürst
+  ja __ er kommt der Frie -- de -- fürst
   Toch -- ter Zi -- on, freu -- e dich,
   jauch -- ze laut, Je -- ru -- sa -- lem!
 }
@@ -119,10 +119,8 @@ Hosianna, Davids Sohn, / sei gegrüßet, König mild!"
   }
   \markup { 
     \vspace #2
-    \column {
-      \wordwrap-string \zweiteStrophe
-      \vspace #1
-      \wordwrap-string \dritteStrophe
-    }
+    \wordwrap-string \zweiteStrophe
+    \hspace #2
+    \wordwrap-string \dritteStrophe
   }
 }  

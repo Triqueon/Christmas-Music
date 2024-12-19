@@ -30,7 +30,7 @@ BassEins = \relative c {
   \set Staff.midiInstrument = #"choir aahs"
 
   \partial 4
-  h4\rest h2.\rest g'2. a a h g a1. h2.\rest
+  h'4\rest h2.\rest g2. a a h g a1. h2.\rest
   a g fis e fis g1. h2.\rest
   a g fis e fis g1.
   c2. h2( a4) g2. a h( c d~ d2)

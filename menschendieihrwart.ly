@@ -37,19 +37,19 @@ zweiteStrophe = "2. V Ihr trugt Adams schwere Bande in des Satans
 
 Dienstbarkeit; Jesus hat von dieser Schande, diesem
 
-Joche euch befreit A Laßt uns \ellipse"
+Joche euch befreit A Laßt uns..."
 
 dritteStrophe = "3. V Welche Wunder, reich an Segen, stellt uns dies
 
 Geheimnis dar! Sehr, der kann sich selbst nicht regen,
 
-durch den alles ist und war! A Laßt uns \ellipse"
+durch den alles ist und war! A Laßt uns..."
 
 vierteStrophe = "4. V Sehr, der Urquell aller Gaben leidet solche Dürftig-
 
 keit; welche Liebe muß der haben, der sich euch so
 
-ganz geweiht! A Laßt uns \ellipse"
+ganz geweiht! A Laßt uns..."
 
 \bookpart {
   \score {
