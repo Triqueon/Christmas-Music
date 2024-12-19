@@ -42,7 +42,7 @@ ist heute erschienen in unserm FLeisch: / Gott ist geboren als ein Kind
 im Stalle."
 
 vierteStrophe = "
-Kommt, singet dem Herren, / singt ihr Engelchöre. / Froh-
+4. Kommt, singet dem Herren, / singt ihr Engelchöre. / Froh-
 
 locket, frohlocket, ihr Selien. / Himmel und Erde bringen
 
