@@ -135,7 +135,8 @@ O Gott uns das verleih.\""
     \layout{}
     \midi {}
   }
-  \markup { 
+  \markup {
+    \large
     \vspace #2
     \column{    
     \wordwrap-string \zweiteStrophe

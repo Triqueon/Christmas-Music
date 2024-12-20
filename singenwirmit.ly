@@ -38,7 +38,7 @@ ersteStrophe = \lyricmode {
 
 
 zweiteStrophe = "
-2. Freue dich Jerusalem, / Licht stahlt auf in Betlehem,
+2. Freue dich Jerusalem, / Licht strahlt auf in Betlehem,
 
 wie verheißen ehedem."
 

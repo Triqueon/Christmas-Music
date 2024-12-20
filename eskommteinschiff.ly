@@ -105,7 +105,8 @@ wie an ihm ist geschehn."
     \layout{}
     \midi {}
   }
-  \markup { 
+  \markup {
+    \larger
     \vspace #2
     \column{    
     \wordwrap-string \zweiteStrophe
