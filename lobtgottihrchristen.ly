@@ -46,7 +46,7 @@ ersteStrophe = \lyricmode {
   \set stanza = "1."
   Lobt Gott ihr Chri -- sten al -- le _ gleich in sei -- nem höch -- sten Thron,
   der heut schleußt auf sein Him -- mel _ -- reich und schenkt uns _ sei -- nen Sohn,
-  und schenkt uns__ sei -- nen Sohn.
+  und schenkt uns _ sei -- nen Sohn.
 }
 
 zweiteStrophe = "2. Er kommt aus seines Vaters Schoß
