@@ -11,8 +11,8 @@ KeyandTime = {
 Melodie = \relative c'' { \set Staff.midiInstrument = #"choir aahs"
   a2 fis4 d2 fis4 a2 h4 a2.
   a2 fis4 d2 fis4 a2 h4 a2.
-  g2 g4 g2 a4 g2 fis4 e2
-  fis4 a2 fis4 d2 fis4 e2 d4 e2 fis4 d2. d2 r4 
+  g2 g4 g2 a4 \break
+  g2 fis4 e2 fis4 a2 fis4 d2 fis4 e2 d4 e2 fis4 d2. d2 r4 
   d2 e4 fis2 g4 fis2 e4 fis2 g4 e2 e4 d2 r4
   a'2. fis a fis d2 e4 fis2 g4 fis2 e4 fis2.
   d2 e4 fis2 g4 fis2 e4 fis2 g4 e2 e4 d2 r4

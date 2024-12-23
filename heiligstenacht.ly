@@ -10,13 +10,14 @@ KeyandTime = {
 Melodie = \relative c'' { \set Staff.midiInstrument = #"choir aahs"
   b4 b as g2 r4 g4 g f es2 r4
   \repeat volta 2 {
-    g4 g as b b c as as g g f r4
+    g4 g as b b c as as g g f r4 \break
     f g a b c d c b a b2 r4
   }
   \repeat volta 2 {
     b4 c d es b b as as g f2 r4
   }
-  g4 f g as g f f g as b as g b g f es r4
+  \break
+  g4 f g as g f f g as b as g b g f es2 r4
   \bar "|."
 }
 

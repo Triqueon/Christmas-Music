@@ -7,8 +7,8 @@ Melodie = \relative c'' { \set Staff.midiInstrument = #"choir aahs"
   \tempo 4 = 90
   \partial 4
   \repeat volta 2 { a4 d a8 a g4 fis8 e fis4( e) d d'
-  cis h8 a h4 a8 gis a2 } r4 fis8 g
-  a4 a8 a a4 g8 fis fis4 e r cis'8 d
+  cis h8 a h4 a8 gis a2 } \break
+  r4 fis8 g a4 a8 a a4 g8 fis fis4 e r cis'8 d
   e4 g,8 g g4 fis8 e fis2 r4 a
   b a8 a8 h4 cis8 cis cis d d4 r g,
   fis e8 d e4 d8 cis d2 r4 \bar "|."
