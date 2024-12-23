@@ -18,6 +18,8 @@ cd out
 pdflatex Mettefrühstücksheft.tex
 ```
 
+Zur korrekten Generierung des Inhaltsverzeichnis muss der letzte Befehl eventuell zweimal ausgeführt werden.
+
 Danach findet sich im Unterordner "out" die Datei "Mettefrühstücksheft.pdf"
 
 Einzelne Lieder lassen sich mit `lilypond DATEINAME.ly` in PDFs konvertieren,
