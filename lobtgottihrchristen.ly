@@ -116,7 +116,7 @@ Gott sei Lob Ehr und Preis!"
           \KeyandTime
           \Melodie
         }
-        \new Lyrics \with { alignAboveContext = "firstStaff" } {
+        \new Lyrics  {
           \lyricsto "Melodie" { \ersteStrophe }
         }
         \new Voice = "Alt" {

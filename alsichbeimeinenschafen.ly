@@ -75,7 +75,7 @@ Des bin ich froh..."
             \voiceOne
             \Melodie
           }
-          \new Lyrics = "Text" \with { alignAboveContext = "firstStaff" } {
+          \new Lyrics = "Text"  {
             \lyricsto "Melodie" { \ersteStrophe }    
           }
           \new Voice = "Alt" {

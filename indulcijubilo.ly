@@ -84,7 +84,7 @@ in regis curia. |: Eia wärn wir da! :|"
           \KeyandTime
           \Melodie
         }
-        \new Lyrics = "Text" \with { alignAboveContext = "firstStaff" } {
+        \new Lyrics = "Text"  {
           \lyricsto "Melodie" { \ersteStrophe }
         }
       >>

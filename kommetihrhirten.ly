@@ -96,7 +96,7 @@ Ehre sei Gott."
           \KeyandTime
           \Melodie
         }
-        \new Lyrics = "Text" \with { alignAboveContext = "firstStaff" } {
+        \new Lyrics = "Text"  {
           \lyricsto "Melodie" { \ersteStrophe }
         }
         \new Lyrics \with { alignBelowContext = "Text"} {

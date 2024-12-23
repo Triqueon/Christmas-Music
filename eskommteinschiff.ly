@@ -85,7 +85,7 @@ wie an ihm ist geschehn."
           \new Voice = "Melodie" {
             \Melodie
           }
-          \new Lyrics = "Text" \with { alignAboveContext = "firstStaff" } {
+          \new Lyrics = "Text"  {
             \lyricsto "Melodie" { \ersteStrophe }    
           }
         >>

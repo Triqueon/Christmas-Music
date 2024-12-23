@@ -106,7 +106,7 @@ O Gott uns das verleih.\""
           \KeyandTime
           \Melodie
         }
-        \new Lyrics = "Text" \with { alignAboveContext = "firstStaff" } {
+        \new Lyrics = "Text"  {
           \lyricsto "Melodie" { \ersteStrophe }
           
         }
