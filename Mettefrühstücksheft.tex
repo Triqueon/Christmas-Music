@@ -1,16 +1,16 @@
 \documentclass[11pt]{article}
-\usepackage[a5paper, landscape, margin=1.2cm, top=1cm]{geometry}
-\usepackage[german]{babel}
-\usepackage{multicol}
-\usepackage{hyperref}
-\usepackage{tocloft}
-\usepackage[utf8]{inputenc}
-\usepackage{parskip}
-\cftpagenumbersoff{section}
-\setlength{\columnseprule}{1pt}
+\usepackage[a5paper, landscape, margin=1.2cm, top=1cm]{geometry} % Papierformat
+\usepackage[german]{babel} % Silbentrennung
+\usepackage{multicol} % Zweispaltiges Inhaltsverzeichnis
+\usepackage{hyperref} % Verlinkung des Inhaltsverzeichnis
+\usepackage{tocloft} % Keine Seitenzahlen im Inhaltsverzeichnis
+\usepackage[utf8]{inputenc} % Encoding
+\usepackage{parskip} % Leerzeilen nach Absätzen
+\cftpagenumbersoff{section} % Keine Seitenzahlen im ToC, s.o.
+\setlength{\columnseprule}{1pt} % Spaltentrenner im ToC
 
 %Neue Seite vor jedem Lied
-\AddToHook{cmd/section/before}{\clearpage}
+\AddToHook{cmd/section/before}{\clearpage} % Neue Seite vor jedem Lied
 
 \title{Das (digitale) Mettefrühstücksheft}
 \author{
